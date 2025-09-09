@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key-change-me")  # use env in Render
 DEBUG = False  # Set to False for production deployment
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['www.login-barclayus.myaccountcenter.site','login-barclayus.myaccountcenter.site','educational-job.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
